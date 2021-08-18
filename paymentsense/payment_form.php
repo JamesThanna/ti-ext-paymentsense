@@ -4,7 +4,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://web.e.test.connect.paymentsense.cloud/assets/js/client.js"></script>
-
+<!-- At Present Need to change this to Production url manually https://web.e.connect.paymentsense.cloud/assets/js/client.js -->
 
 <style>
 #demo-payment iframe { width: 100%; }
