@@ -4,33 +4,33 @@ Hey I hope this helps!
 
 
 Test Card Data 
+<br><br>
+john Watson <br>
+4976000000003436<br>
+12/25<br>
+452<br>
 
-john Watson
-4976000000003436
-12/25
-452
-
-32 
-Mulberry Street
-Eastfort
-Violetdell
-VL14 8PA
+32 <br>
+Mulberry Street<br>
+Eastfort<br>
+Violetdell<br>
+VL14 8PA<br>
 
 
 
 3DS Card
 
-Geoff Wayne
-4976350000006891
-12/25
-341
+Geoff Wayne<br>
+4976350000006891<br>
+12/25<br>
+341<br>
 
-113
-BroadStreetWest
-Oldpine
-Strongbarrow
-SB42 1SX
-
+113<br>
+BroadStreetWest<br>
+Oldpine<br>
+Strongbarrow<br>
+SB42 1SX<br>
+<br><br>
 Enter incorrect CVC to replicate a failure message.
-
+<br><br>
 https://docs.connect.paymentsense.cloud/ConnectE/Standard
