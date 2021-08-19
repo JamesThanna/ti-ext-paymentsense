@@ -51,7 +51,7 @@ class PaymentSense extends BasePaymentGateway
         //}
 
         return [
-            'paymentsense_amount' => Cart::total(),
+            'paymentsense_amount' => number_format(Cart::total(), 2, '', ''),
             'paymentsense_currency' => $this->model->currency_code, // make this a variable in fields.php?
             'paymentsense_token' => $token['token'],
             'paymentsense_order_id' => $token['order_id'],
@@ -74,11 +74,11 @@ class PaymentSense extends BasePaymentGateway
                 'gatewayUsername' => $this->model->username,
                 'gatewayPassword' => $this->model->password,
                 'currencyCode' => $this->model->currency_code,
-                'amount' => Cart::total(),
+                'amount' => number_format(Cart::total(), 2, '', ''),
                 'transactionType' => $this->model->capture_method,
                 'orderId' => $order_id,
                 'userAgent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
-                'userCountryCode' => '826',
+                'userCountryCode' => $this->model->currency_code,
             ]
         ]);
 
