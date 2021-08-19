@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Miorder\Paymentsense;
 
@@ -15,33 +15,25 @@ class Extension extends BaseExtension
      *
      * @return array
      */
-  
-   
-  
-      
-      public function registerPaymentGateways()
+    public function registerPaymentGateways()
     {
         return [
-            'MiOrder\PaymentSense\PaymentSense' => [
+            'MiOrder\PaymentSense\Payments\PaymentSense' => [
                 'code' => 'paymentsense',
                 'name' => 'Payment Sense Gateway',
-                'description' => 'Intergation Payment Gateway',
+                'description' => 'Accept payments with Payment Sense',
             ],
-
-            
         ];
     }
-  
-  
-  
+
     public function extensionMeta()
     {
         return [
-            'name'        => 'paymentsense',
-            'author'      => 'miorder',
-            'description' => 'Intergation Payment Sense Gateway',
-            'icon'        => 'fa-plug',
-            'version'     => '1.0.0'
+            'name' => 'paymentsense',
+            'author' => 'miorder',
+            'description' => 'Integration with Payment Sense Gateway',
+            'icon' => 'fa-plug',
+            'version' => '1.0.0'
         ];
     }
 
@@ -62,9 +54,9 @@ class Extension extends BaseExtension
      */
     public function boot()
     {
-       $gateWay = Payments_model::select('data')->where('class_name', '=', 'MiOrder\PaymentSense\PaymentSense')->first();
+       //$gateWay = Payments_model::select('data')->where('class_name', '=', 'MiOrder\PaymentSense\PaymentSense')->first();
       //($gateWay->transaction_mode);
-    } 
+    }
 
     /**
      * Registers any front-end components implemented in this extension.

@@ -1,36 +1,9 @@
-# paymentsense
+# Payment Sense
 
-Hey I hope this helps! 
+This extension adds a Payment Gateway that integrates with [PaymentSense connect E standard](https://docs.connect.paymentsense.cloud/ConnectE/Standard).
 
+### Installation
 
-Test Card Data 
-<br><br>
-john Watson <br>
-4976000000003436<br>
-12/25<br>
-452<br>
+Install from the marketplace or by uploading to `extensions/miorder/paymentsense`. Then enable the extension in the admin panel.
 
-32 <br>
-Mulberry Street<br>
-Eastfort<br>
-Violetdell<br>
-VL14 8PA<br>
-
-
-
-3DS Card
-
-Geoff Wayne<br>
-4976350000006891<br>
-12/25<br>
-341<br>
-
-113<br>
-BroadStreetWest<br>
-Oldpine<br>
-Strongbarrow<br>
-SB42 1SX<br>
-<br><br>
-
-<br><br>
-https://docs.connect.paymentsense.cloud/ConnectE/Standard
+The payment gateway will then be available in Sales -> Payments, and you can modify your connection parameters.
