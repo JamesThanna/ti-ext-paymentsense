@@ -31,6 +31,6 @@ Oldpine<br>
 Strongbarrow<br>
 SB42 1SX<br>
 <br><br>
-Enter incorrect CVC to replicate a failure message.
+
 <br><br>
 https://docs.connect.paymentsense.cloud/ConnectE/Standard
