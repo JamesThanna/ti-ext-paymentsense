@@ -20,7 +20,7 @@ class Extension extends BaseExtension
         return [
             'MiOrder\PaymentSense\Payments\PaymentSense' => [
                 'code' => 'paymentsense',
-                'name' => 'Payment Sense Gateway',
+                'name' => 'Payment Sense',
                 'description' => 'Accept payments with Payment Sense',
             ],
         ];
