@@ -12,7 +12,10 @@ use Session;
 
 class PaymentSense extends BasePaymentGateway
 {
-    protected $requirePrecheckoutValidation = true;
+    public function completesPaymentOnClient()
+    {
+        return TRUE;
+    }
 
     public function beforeRenderPaymentForm($host, $controller)
     {
